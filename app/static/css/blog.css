@@ -1,0 +1,63 @@
+/* Reset some default styles */
+body, h1, h2, h3, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Body and Typography */
+  body {
+    font-family: 'Georgia', serif;
+    background-color: #fafafa;
+    color: #333;
+    line-height: 1.6;
+    padding-top: 20px; /* Adjust to create space between header and content */
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #eceff1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #263238;
+  }
+  
+  /* Blog content styles */
+  .blog-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .blog-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #263238;
+  }
+  
+  .blog-date {
+    color: #546e7a;
+    font-style: italic;
+    margin-bottom: 15px;
+  }
+  
+  .blog-article {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #333;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #eceff1;
+    color: #546e7a;
+    text-align: center;
+    padding: 10px;
+  }
+  
