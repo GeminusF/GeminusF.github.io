@@ -1,9 +1,0 @@
-{% extends 'layout.html' %}
-
-{% block content %}
-    <ul>
-        {% for blog in blogs %}
-            <li><a href="/blog/{{ blog.id }}">{{ blog.date }} - {{ blog.title }}</a></li>
-        {% endfor %}
-    </ul>
-{% endblock %}
